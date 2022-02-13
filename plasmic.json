@@ -1,0 +1,70 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "akmHL7cLduyNG7qpZ1XTQy",
+      "projectApiToken": "5WmsW4HVSL5QH6VqEqFCMOLLMuuBTvkTAyCirtdJ54eyK8GWDm6gMrBkKsoKP3RjGRY1tIsBLVSlS4UDtAsw",
+      "projectName": "Untitled Project",
+      "version": "latest",
+      "cssFilePath": "plasmic/untitled_project/plasmic_untitled_project.module.css",
+      "components": [
+        {
+          "id": "AloX4rELCm",
+          "name": "Fhff",
+          "type": "managed",
+          "projectId": "akmHL7cLduyNG7qpZ1XTQy",
+          "renderModuleFilePath": "plasmic/untitled_project/PlasmicFhff.tsx",
+          "importSpec": {
+            "modulePath": "Fhff.tsx"
+          },
+          "cssFilePath": "plasmic/untitled_project/PlasmicFhff.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6dRVHQXNcJ",
+          "name": "Page",
+          "type": "managed",
+          "projectId": "akmHL7cLduyNG7qpZ1XTQy",
+          "renderModuleFilePath": "plasmic/untitled_project/PlasmicPage.tsx",
+          "importSpec": {
+            "modulePath": "Page.tsx"
+          },
+          "cssFilePath": "plasmic/untitled_project/PlasmicPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "cliVersion": "0.1.170",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+}
