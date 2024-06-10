@@ -24,7 +24,7 @@
     {
       "projectId": "akmHL7cLduyNG7qpZ1XTQy",
       "projectApiToken": "5WmsW4HVSL5QH6VqEqFCMOLLMuuBTvkTAyCirtdJ54eyK8GWDm6gMrBkKsoKP3RjGRY1tIsBLVSlS4UDtAsw",
-      "projectName": "Untitled Project",
+      "projectName": "Weather App",
       "version": "latest",
       "cssFilePath": "plasmic/untitled_project/plasmic_untitled_project.module.css",
       "components": [
@@ -53,18 +53,179 @@
           "cssFilePath": "plasmic/untitled_project/PlasmicPage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "ovWPjnzJPPx6",
+          "name": "Jhgj",
+          "type": "managed",
+          "projectId": "akmHL7cLduyNG7qpZ1XTQy",
+          "renderModuleFilePath": "plasmic/weather_app/PlasmicJhgj.tsx",
+          "importSpec": {
+            "modulePath": "Jhgj.tsx"
+          },
+          "cssFilePath": "plasmic/weather_app/PlasmicJhgj.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "aIriiZFUvLZH",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "akmHL7cLduyNG7qpZ1XTQy",
+          "renderModuleFilePath": "plasmic/weather_app/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/weather_app/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "aKvACal5005G",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "akmHL7cLduyNG7qpZ1XTQy",
+          "renderModuleFilePath": "plasmic/weather_app/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "NewPage.tsx"
+          },
+          "cssFilePath": "plasmic/weather_app/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "GtGXW4o3_oX3",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/weather_app/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "NZoV8-eLSy-q",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/weather_app/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
       "images": [],
       "indirect": false,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [
+        {
+          "id": "ffODrBh7PQ",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "ZjvNEDhLeT",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "splitsProviderFilePath": "plasmic/weather_app/PlasmicSplitsProvider.tsx",
+      "customFunctions": []
+    },
+    {
+      "projectId": "5dGW8Awro3qq8Hh5MveXLP",
+      "projectApiToken": "wVHvHSTRyoO1MQddr5ypmW8AfwiMMy7h0Iaj4Q2YmYLLEo2A4L6pLn8Fydm8wQkTAJV9uAD5bJPo8bmGg",
+      "projectName": "lottie-react",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/lottie_react/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "BPNsJ2qis6",
+          "name": "LottieWrapper",
+          "displayName": "hostless-lottie-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        },
+        {
+          "id": "vbTFHH9P-cuM",
+          "name": "AsyncLottieWrapper",
+          "displayName": "hostless-lottie-async-react",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "zlBHsvkFlN",
+          "name": "ConditionGuard",
+          "displayName": "hostless-condition-guard",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "K-mWGqrHefEp",
+          "name": "SideEffect",
+          "displayName": "hostless-side-effect",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "SpkzmXJqg27p",
+          "name": "Timer",
+          "displayName": "hostless-timer",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {
-    "variantGroups": []
+    "variantGroups": [
+      {
+        "id": "YO75jAm6oTko",
+        "name": "Segment",
+        "projectId": "akmHL7cLduyNG7qpZ1XTQy",
+        "contextFilePath": "plasmic/weather_app/PlasmicGlobalVariant__Segment.tsx"
+      }
+    ]
   },
-  "cliVersion": "0.1.170",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
 }
